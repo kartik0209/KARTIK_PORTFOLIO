@@ -31,7 +31,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        am a full stack developer from Gujarat, India with experience in the MERN stack, building scalable web applications at YORK IE and TabDelta.
+        I am a full stack developer from Gujarat, India with experience in the MERN stack, building scalable web applications at YORK IE and TabDelta.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

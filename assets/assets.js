@@ -35,8 +35,28 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import react from "./react.png";
+import node from "./nodejs.png";
+import express from "./expressjs.png";
+import next from "./nextjs.png";
+import aws from "./aws.png";
+import java from "./java.png";
+import cpp from "./cpp.png";
+import postman from "./postman.png";
+import tailwind from "./tailwind.png";
+
 
 export const assets = {
+    react,
+    node,
+    express,
+    next,   
+    aws,
+    java,
+    cpp,
+    postman,
+    tailwind,
+
     user_image,
     code_icon,
     code_icon_dark,
@@ -78,24 +98,24 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'E-TRIP',
+        description: 'Online Hotel & Flight Booking',
+        bgImage: '/work-1.jpg',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'JOB Hunter',
+        description: 'Job Searching Platform',
+        bgImage: '/work-2.jpg',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'EduMark',
+        description: 'EduMark helps track and manage student marks easily',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Real Estate',
+        description: 'real estate buy or sell property ',
+        bgImage: '/work-4.jpg',
     },
 ]
 
@@ -113,5 +133,17 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.git
-];
+    { icon: assets.react, label: "React" },
+    { icon: assets.node, label: "Node.js" },
+    { icon: assets.express, label: "Express" },
+    { icon: assets.next, label: "Next.js" },
+    { icon: assets.aws, label: "AWS" },
+    { icon: assets.java, label: "Java" },
+    { icon: assets.cpp, label: "C++" },
+    { icon: assets.postman, label: "Postman" },
+    { icon: assets.tailwind, label: "Tailwind CSS" },
+    { icon: assets.vscode, label: "VS Code" },
+    { icon: assets.firebase, label: "Firebase" },
+    { icon: assets.mongodb, label: "MongoDB" },
+    { icon: assets.git, label: "Git" },
+  ]
